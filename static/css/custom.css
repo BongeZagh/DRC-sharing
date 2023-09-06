@@ -1,0 +1,9 @@
+.ls-wide-mode video,
+.ls-wide-mode iframe[id^='youtube-player'], 
+.ls-wide-mode iframe[src*='youtube-nocookie.com'],
+.ls-wide-mode iframe[src*='player.vimeo'],
+.ls-wide-mode iframe[src$='.mp4'],
+.ls-wide-mode iframe[src$='.mkv'] {
+  height: 540px; /* half of 1080p */
+  width: 100%;
+}
